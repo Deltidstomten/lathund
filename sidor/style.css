@@ -5,6 +5,15 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     color:#eed17f;
 }
