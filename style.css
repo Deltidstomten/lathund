@@ -49,6 +49,15 @@ article p {
 .article-grid-2 {
     display: grid;
     grid-template-columns: 30% 30%;
+    gap: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.article-grid-3 {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 50px;
     justify-content: center;
     justify-items: center;
 }
