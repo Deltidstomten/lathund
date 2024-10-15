@@ -1,7 +1,15 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #283955;
-    color: white;
+    color: black;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
 }
 
 nav {
@@ -20,7 +28,7 @@ nav a {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #425777;
 }
 
 a:hover {
@@ -31,7 +39,16 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 10vh;
+
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+
+    padding-bottom: 4%;
+
+    border-radius: 20px;
+
 }
 
 article {
@@ -64,4 +81,5 @@ article p {
 
 .card {
     text-align: center;
+    font-weight: bolder;
 }
