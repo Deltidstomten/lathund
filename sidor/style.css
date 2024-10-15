@@ -63,3 +63,34 @@ article h2 {
 article p {
     max-width: 80ch;
 }
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+
+    padding: 2px;
+}
+
+.small-background {
+    max-width: min-content;
+    background-color: #283955;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.small-background-fix {
+    max-width: min-content;
+    background-color: #283955;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
