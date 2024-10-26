@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Lathund - CSS</title>
+</head>
+
+<body>
+    <nav>
+        <a href="../../webbutveckling.html">Tillbaka</a>
+    </nav>
+    <main>
+        <header>
+            <h1>CSS</h1>
+        </header>
+        <article>
+            <h2>Intro</h2>
+            <p>CSS är ett språk som används för att ändra hemsidors utseende. Med CSS så kan man skapa en stilmal där
+                man definerar regler över hur saker ska se ut. Det finns väldigt många olika regler man kan ändra, här
+                är en länk till ett index av css regler. <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#index"> CSS Reference Index</a>
+            </p>
+            <h2>Syntax</h2>
+            <p>CSS är inte uppbyggd med taggar som HTML. Istället så skapar man regler som ser ut sähär:</p>
+            <pre>
+body {
+    background-color: red;
+    font-size: 20px;
+}
+            </pre>
+            <p>I början så har vi en <i>selector</i> som beskriver vad som ska följa den här regeln, i det här fallet så
+                står det body vilket betyder att allting inuti body följer denna regel. Det följs av ett par <i>Curly
+                    brackets</i> vilket skämtsamt brukar kallas för <i>måsvingar</i> på svenska. Mellan måsvingarna så
+                skriver man de attributen som ska ändras. i det här fallet så ska bakgrundsfärgen bli rött och all text
+                ska vara 20 pixlar stor.</p>
+
+            <h2>Selector</h2>
+            <p>Det finns flera olika sätt att bestämma vilka taggar som ska påverkas av specifika regler. De 2
+                vanligaste sätten är med en typ selector eller en class selector.</p>
+            <p>Typ selectorn så skriver man namnet på taggen som ska påverkas såhär:</p>
+            <pre>
+p {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+            </pre>
+            <p>De här 2 reglerna gör så att alla p taggar har röd text och att alla h2 taggar har blå text.</p>
+            <p>Sedan har vi class selector vilket är när man skapar en class som man sedan delar ut i HTML koden
+                till de taggar man vill ska följa den regeln.</p>
+            <p>Såhär hade den koden sätt ut.</p>
+            <pre>
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: blue;
+}
+            </pre>
+            <p>Först skriver man en punkt för att visa att det är en class och sedan det man vill kalla classen</p>
+            <p>När man vill dela ut classen till specifika taggar så gör man såhär:</p>
+            <pre>
+&lt;h1 class="red-text"&gt;My First Heading&lt;/h1&gt;
+&lt;p class="blue-text"&gt;My first paragraph.&lt;/p&gt;
+            </pre>
+            <p>Man delar alltså ut class attributen till taggarna där man skriver namnet på classen.</p>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
