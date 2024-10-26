@@ -18,11 +18,11 @@ nav {
     justify-content: space-evenly;
 
     font-size: 3rem;
-    
+
 }
 
 nav a {
-    color:#eed17f;
+    color: #eed17f;
 }
 
 
@@ -53,9 +53,7 @@ main {
 
 }
 
-article {
-
-}
+article {}
 
 article h2 {
     text-align: center;
@@ -84,4 +82,28 @@ article p {
 .card {
     text-align: center;
     font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        font-size: 1.5rem;
+    }
+
+    main {
+
+        margin-left: 2%;
+        margin-right: 2%;    
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.0rem;
+    }
+
+    article p {
+        max-width: 60ch;
+    }
 }
