@@ -80,6 +80,10 @@ li {
     margin-right: auto;
 }
 
+.scale-img {
+    width: 80ch;
+}
+
 .border {
     border-color: black;
     border-width: 2px;
