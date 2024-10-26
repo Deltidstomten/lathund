@@ -5,10 +5,18 @@ body {
 
 }
 
-a {
+nav a {
     text-decoration: none;
     color: white;
     font-size: 2rem;
+}
+
+a {
+    color: black;
+    font-size: 1.5rem;
+}
+a:link {
+    color: black;
 }
 
 a:hover {
@@ -53,11 +61,6 @@ article {
     border-radius: 20px;
 }
 
-article a {
-    color: black;
-    font-size: 1.5rem;
-}
-
 article h2 {
     text-align: center;
 }
@@ -79,10 +82,24 @@ li {
 
 .border {
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
 
-    padding: 2px;
+    padding: 4px 2px 0px 2px;
+}
+
+.yellow-border {
+    border-color: #eed17f;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.small-margin-right {
+    margin-right: 20%;
 }
 
 .exemple-tag-grid {
@@ -96,8 +113,12 @@ li {
     color: black;
 }
 
-.exemple-tag-grid a {
-    color: blue;
+.standard-h1 {
+    color: black;
+}
+
+.standard-h2 {
+    text-align: left;
 }
 
 .small-background {
