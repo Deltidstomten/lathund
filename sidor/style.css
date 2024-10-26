@@ -23,8 +23,6 @@ main {
 
 }
 
-
-
 h1 {
     color: #eed17f;
     font-size: 3rem;
@@ -53,7 +51,11 @@ article {
     margin-bottom: 4%;
 
     border-radius: 20px;
+}
 
+article a {
+    color: black;
+    font-size: 1.5rem;
 }
 
 article h2 {

@@ -18,38 +18,39 @@
         </header>
         <article>
             <h2>Intro</h2>
-            <p>HTML är ett språk som man använder när man vill skapa hemsidor. HTML är uppbyggt med taggar som ser ut
+            <p>HTML är ett <i>märkspråk</i> som används för att skapa hemsidor. HTML är uppbyggt med taggar som ser ut
                 såhär <i>&lt;tag&gt; text &lt;/tag&gt;</i></p>
             <p>Genom att placera ut flera av dessa taggar så kan man bygga upp en hemsida</p>
-            <p>Nedan är ett exempel på en hemsidas kod</p>
+            <p>Nedan är ett exempel på kod till en hemsida</p>
             <pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-    &lt;title&gt;Page Title&lt;/title&gt;
+    &lt;title&gt;Titel&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
 
-    &lt;h1&gt;My First Heading&lt;/h1&gt;
-    &lt;p&gt;My first paragraph.&lt;/p&gt;
+    &lt;h1&gt;Hej och Välkommen&lt;/h1&gt;
+    &lt;p&gt;Wow kolla en liten text&lt;/p&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;
             </pre>
             <p>(ni kan visa den här hemsidans kod genom att högerklicka och välja "visa källkod")</p>
-            <p>Alla hemsidor börjar med DOCTYPE taggen som förklarar för webbläsaren att det här är en hemsida. Efter det kommer html taggen som säger att allting mellan taggen är html kod</p>
+            <p>Alla hemsidor börjar med DOCTYPE taggen som förklarar för webbläsaren att det här är en hemsida. Efter
+                det kommer html taggen som säger att allting inom taggen är html kod</p>
             <p>Sedan har vi Head och Body taggarna. I head lägger vi alla taggar som ger extra information till
                 webbläsaren som bl.a vad titlen ska vara, vilken text kodning som ska användas och om det finns andra
                 filer som den ska hämta information från. I body så lägger vi alla taggar som påverkar utseendet på
-                hemsidan som bl.a text, bilder, länkar och listor</p>
-            <p>Det här är grunden till en hemsida, genom att fylla på med flera taggar så kan man sakta men säkert bygga upp en fungerande hemsida.</p>
+                hemsidan som text, bilder, länkar och listor</p>
+            <p>Det här är grunden till alla hemsidor, i sin simplaste form så är alla hemsidor bara en massa taggar</p>
             <h2>Attribut</h2>
             <p>Alla taggar kan man tilldela attribut som ger extra information om taggen.</p>
-            <p>Exempel: &lt;img src="bild.jpg"&gt; img taggen visar en bild. src attributet gör så att webbläsaren
-                vet vart den ska leta efter bilden.
+            <p><b>Exempel: &lt;img src="bild.jpg"&gt;</b> img taggen visar en bild. src attributet gör så att webbläsaren
+                vet vart den ska hämta bilden ifrån.
             </p>
-            <p>Exempel: &lt;p class="red-text"&gt;&lt;/p&gt;class attributet i p taggen säger till webbläsaren att 
-                följa den namngivna klassens css regler.
+            <p><b>Exempel: &lt;p class="red-text"&gt;Hej&lt;/p&gt;</b> class attributet i p taggen säger till webbläsaren att
+                p taggen ska använda sig av classen "red-text"
             </p>
         </article>
     </main>
