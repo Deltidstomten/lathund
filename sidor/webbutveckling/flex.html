@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Lathund - Flex</title>
+</head>
+
+<body>
+    <nav>
+        <a href="../../webbutveckling.html">Tillbaka</a>
+    </nav>
+    <main>
+        <header>
+            <h1>Flex</h1>
+        </header>
+        <article>
+            <h2>Intro</h2>
+            <p>Flex (Flexbox) används när man vill positionera ut taggar längs med en x och y axel. Flex används när det
+                endast behövs 1 kolumn eller rad.</p>
+            <p>Flex är användbart när man vill skapa en navbar, när man vill placera saker brevid varandra osv.</p>
+
+            <h2>Egenskaper</h2>
+
+            <p>I flex så har man 2 axlar som agerar som en x och y axel men kallas för huvudaxel och korsaxel. Som
+                standard så är x axeln huvudaxeln men med <i>flex-direction</i> så kan man ändra y axeln till
+                huvudaxeln eller flippa axeln åt motsata håll.</p>
+            <p>I flex är de 2 viktigaste egenskaperna <i>align-items</i> och <i>justify-content</i>. <i>align-items</i>
+                påverkar hur taggarna är placerade på huvudaxlen och <i>justify-content</i> på korsaxeln. Om man har en
+                flex till exempel med flera knappar inuti och vill att knapparna ska centrera på huvudaxlen så sätter
+                man
+                <i>align-items: center;</i>
+            </p>
+
+            <h2>Exempel</h2>
+            <p>Säg att du vill placera ut nedan taggar brevid varandra med ett litet mellanrum mellan.</p>
+            <div>
+                <div>
+                    <p class="flex-example-element">
+                        Text1
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text2
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text3
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text4
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text4
+                    </p>
+                </div>
+            </div>
+            <p>Då skulle man kunna lägga alla taggar i en div som man ger en class som har display satt till flex</p>
+            <div class="flex-example-first">
+                <div>
+                    <p class="flex-example-element">
+                        Text1
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text2
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text3
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text4
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text4
+                    </p>
+                </div>
+            </div>
+            <p>Sedan kan man används sig av <i>justify-content</i> och sätta det till <i>space-between</i>.</p>
+            <div class="flex-example">
+                <div>
+                    <p class="flex-example-element">
+                        Text1
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text2
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text3
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text4
+                    </p>
+                </div>
+                <div>
+                    <p class="flex-example-element">
+                        Text4
+                    </p>
+                </div>
+            </div>
+            <p>Då placeras taggarna ut automatiskt med ett jämnt mellanrum mellan varje tag.</p>
+            <h2>Länkar</h2>
+            <p>För en bättre visualisering av hur flex fungerar samt en insyn över flera av flexs egenskaper så <a
+                    href="https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png">klicka
+                    här</a> för att see css-tricks poster för flex.</p>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

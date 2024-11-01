@@ -142,6 +142,25 @@ li {
 
 }
 
+.flex-example-first {
+    display: flex;
+
+}
+
+.flex-example {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-example-element {
+    background-color: #283955;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
         font-size: 1.5rem;
