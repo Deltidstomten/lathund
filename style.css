@@ -23,6 +23,7 @@ nav {
 
 nav a {
     color: #eed17f;
+    font-weight: bold;
 }
 
 
@@ -50,6 +51,8 @@ main {
     padding-bottom: 4%;
 
     border-radius: 20px;
+
+    box-shadow: 5px 5px 5px black;
 
 }
 
