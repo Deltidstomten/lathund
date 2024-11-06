@@ -53,7 +53,9 @@ main {
 
 }
 
-article {}
+article {
+    width: 70%;
+}
 
 article h2 {
     text-align: center;
@@ -62,6 +64,7 @@ article h2 {
 article p {
     max-width: 80ch;
 }
+
 
 .article-grid-2 {
     display: grid;

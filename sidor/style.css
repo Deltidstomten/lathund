@@ -74,6 +74,10 @@ li {
 
 }
 
+li i {
+    color:red;
+}
+
 .center-img {
     display: block;
     margin-left: auto;

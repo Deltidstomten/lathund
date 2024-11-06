@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Lathund - Git & Github</title>
+</head>
+
+<body>
+    <nav>
+        <a href="../../index.html">Tillbaka</a>
+    </nav>
+    <main>
+        <header>
+            <h1>Git & Github</h1>
+        </header>
+        <article>
+            <h2>Intro</h2>
+            <p>Git är ett versionshanteringprogram som används när man spara, dela och hålla koll på kod.</p>
+            <p>Git använder vi för att både säkerhetskopiera eran kod samt för att dela eran kod med läraren.</p>
+            <p>Github är sidan som vi pekar git mot och blir därför platsen där koden kopieras till.</p>
+
+            <h2>Hur man sätter upp git</h2>
+            <ol>
+                <li>Skapa ett repository på github</li>
+                <li>Öppna terminal / cmd i mappen som git ska hantera</li>
+                <li>skriv > <i>git init</i> för att initialisera git</li>
+                <li>skriv > <i>git branch -M main</i> för att sätta branchen till main vilket är standarden på github.
+                </li>
+                <li>skriv > <i>git remote add origin länk_till_er_repository.git</i> för att konfigurera vart git ska
+                    kopiera</li>
+                <li>Klar!</li>
+            </ol>
+            <p>Nu har ni satt upp git och kan börja använda programmet.</p>
+            <h2>Hur man använder git</h2>
+            <ol>
+                <li>Öppna terminal / cmd i mappen som git hanterar</li>
+                <li>skriv > <i>git add .</i> för att markera vilka filer som ska kopieras, punkt betyder alla filer.
+                </li>
+                <li>skriv > <i>git commit -m "kommentar"</i> för att förberada en commit dvs en överlämning av filer.
+                </li>
+                <li>skriv > <i>git push origin main</i> för att pusha, vilket skickar iväg filerna till github.</li>
+                <li>Klar!</li>
+            </ol>
+            <h2>Hur man kommer åt sina filer på en annan dator</h2>
+            <p>Om man vill jobba på en annan dator så är det viktigt att följa några annorlunda steg för att inte
+                riskera att förstöra sitt repository på github.</p>
+            <ol>
+                <li>Öppna terminal / cmd i mappen som git ska hantera</li>
+                <li>skriv > <i>git init</i> för att initialisera git</li>
+                <li>skriv > <i>git branch -M main</i> för att sätta branchen till main vilket är standarden på github. </li>
+                <li>skriv > <i>git remote add origin länk_till_er_repository.git</i> för att konfigurera vart git ska kopiera</li>
+                <li>skriv > <i>git pull origin main</i> för att pulla, vilket laddar hem alla filer från github.</li>
+                <li>Klar!</li>
+                <p>OBS! Det är viktigt att alltid pusha sin kod när man är klar och sedan pulla koden om man byter dator för att inte skapa konflikter i sitt repository</p>
+            </ol>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
