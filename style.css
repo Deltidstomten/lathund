@@ -12,11 +12,11 @@ body {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 nav {
@@ -82,6 +82,11 @@ article p {
     column-gap: 30px;
     justify-content: center;
     justify-items: center;
+
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+
+    border: #283955 1px solid;
 }
 
 .article-grid-3 {
@@ -90,6 +95,11 @@ article p {
     column-gap: 50px;
     justify-content: center;
     justify-items: center;
+
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+
+    border: #283955 1px solid;
 }
 
 .card {
