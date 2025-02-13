@@ -18,16 +18,41 @@
         </header>
         <article>
             <h2>Intro</h2>
-            <p>Grid används när man vill positionera ut taggar på ett rutnät. Grid används när det
-                behövs mer än 1 kolumn eller rad.</p>
-            <p>Grid är användbart när man vill skapa ett rutnät</p>
+            <p>Grid används för att enkelt placera ut element i ett rutnät med hjälp av rader & kolumner. Grid är
+                väldigt hjälpsam om man vill göra responsiva sidor.</p>
 
             <h2>Egenskaper</h2>
 
-            <p>I Grid så skapar man ett x antal kolumner och rader där taggar automatiskt blir utplacerade i.</p>
-            <p>För att skapa ett rutnät så används 2 egenskaper <i>grid-template-columns</i> och
-                <i>grid-template-rows</i>. Med de 2 egenskaperna så definerar man hur många kolumner och rader rutnätet
-                ska bestå av samt hur bred och hög de ska vara.</p>
+            <p>För att använda grid så måste man minst definera hur många kolumner man vill att rutnätet ska bestå av.
+            </p>
+            <p>Med hjälp av <i>grid-template-columns</i> och <i>grid-template-rows</i> så kan man definera hur rutnätet
+                ska se ut.</p>
+
+            <h2>Exempel</h2>
+            <pre>
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+&lt;div class="grid"&gt;
+    &lt;button&gt;1&lt;/button&gt;
+    &lt;button&gt;2&lt;/button&gt;
+    &lt;button&gt;3&lt;/button&gt;
+    &lt;button&gt;4&lt;/button&gt;
+&lt;/div&gt;
+</pre>
+
+            <div class="grid-example-1">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+            </div>
+            <h2>Positionering</h2>
+            <p>Nedan är CSS-tricks guide över hur man använder grid</p>
+            <img class="width-100" src="../../media/css-grid-poster.png" alt="">
         </article>
     </main>
     <footer>

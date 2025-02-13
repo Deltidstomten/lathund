@@ -30,7 +30,6 @@ main {
     flex-direction: column;
     align-items: center;
 
-
 }
 
 h1 {
@@ -93,6 +92,10 @@ li i {
 
 .scale-img {
     max-width: 80ch;
+}
+
+.width-100{
+    width: 100%;
 }
 
 .border {
@@ -170,6 +173,12 @@ li i {
     padding: 10px;
     border-radius: 20px;
     width: fit-content;
+}
+
+.grid-example-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
 }
 
 @media only screen and (max-width: 600px) {
