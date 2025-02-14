@@ -41,14 +41,42 @@ h2 {
     font-size: 2rem;
 }
 
+h3 {
+    font-size: 1.7rem;
+}
+
 p {
     font-size: 1.5rem;
+}
+
+table{
+    font-size: 1.5rem;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+
+}
+
+th{
+    border: 1px solid #dddddd;
+    padding: 8px;
+
+}
+
+td{
+    border: 1px solid #dddddd;
+    padding: 8px;
+
 }
 
 pre {
     font-size: 1.2rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
+
+    background-color: black;
+    color: white;
 }
 
 article {
@@ -72,6 +100,11 @@ article {
 article h2 {
     text-align: center;
 }
+
+article h3 {
+    text-align: center;
+}
+
 
 article p {
     max-width: 80ch;
