@@ -38,6 +38,42 @@ def scream():
 def addition(x, y):
     print(x + y)
 
+addition(10, 5)
+</pre>
+            <p>
+                I funktionen ovan så matar man in 2st tal som funktionen sedan adderar och printar ut. För att köra
+                funktionen så skriver man namnet på funktionen följt av paranteser och om funktionen tar emot parametrar
+                så skriver man de mellan paranteserna.
+            </p>
+            <p>Vill man att funktionen ska returnera något alltså svara med ett resultat eller en status så skriver man
+                return och sedan vad den ska retunera</p>
+            <pre>
+def addition(x, y):
+    return x + y
+
+result = addition(10, 5)
+print(result)
+</pre>
+
+            <p>I det här fallet så kallas addition och man matar in 10 å 5 som parameterar, funktionen adderar sedan
+                ihop de och retunerar tillbaka svaret (15) vilket sparas i result variabeln.</p>
+
+            <h2>Javascript</h2>
+            <p>När man vill skapa en funktion i Javascript så skriver man först function och sedan vad man vill kalla
+                den,
+                paranteser och sist curly brackets</p>
+            <pre>
+def scream(){
+    console.log("aaaaaa!")
+}
+</pre>
+            <p>Koden man vill att funktionen ska köra skriver man mellan curly bracketsen.</p>
+            <p>Vill man mata in parameterar till funktionen så skriver man vad man vill kalla de parametrarna inuti
+                paranteserna med ett kommatecken mellan varje parameter.</p>
+            <pre>
+function addition(x, y){
+    console.log(x + y)
+}
 
 addition(10, 5)
 </pre>
@@ -46,6 +82,20 @@ addition(10, 5)
                 funktionen så skriver man namnet på funktionen följt av paranteser och om funktionen tar emot parametrar
                 så skriver man de mellan paranteserna.
             </p>
+            <p>Vill man att funktionen ska returnera något alltså svara med ett resultat eller en status så skriver man
+                return och sedan vad den ska retunera</p>
+            <pre>
+function addition(x, y){
+    return x + y
+}
+
+result = addition(10, 5)
+console.log(result)
+</pre>
+
+            <p>I det här fallet så kallas addition och man matar in 10 å 5 som parameterar, funktionen adderar sedan
+                ihop de och retunerar tillbaka svaret (15) vilket sparas i result variabeln.</p>
+                
         </article>
     </main>
     <footer>
