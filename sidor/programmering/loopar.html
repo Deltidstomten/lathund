@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Lathund - Loopar</title>
+</head>
+
+<body>
+    <nav>
+        <a href="../../programmering.html">Tillbaka</a>
+    </nav>
+    <main>
+        <header>
+            <h1>Loopar</h1>
+        </header>
+        <article>
+            <h2>Runt och runt och runt och runt...</h2>
+            <p>Loopar används när man vill att en viss kod ska upprepas ett x antal gånger eller tills något kriterium
+                har möts. Det finns 3 sorters loopar, <b>for loop</b>, <b>for each loop</b> och <b>while loop</b>. for
+                och for each loopar loopar ett x antal gånger medan while loopar följer ett kriterium är True.
+            </p>
+            <h2>Python</h2>
+            <p>Python är speciellt för där finns inte vanliga for loopar, bara for each loopar och while loopar.</p>
+            <pre>
+fruits = ["äpple", "apelsin", "melon", "kiwi"]
+for x in fruits:
+    print(x)
+</pre>
+            <p>Programmet ovan går igenom alla element i fruits listan och printar de. X är namnet som varje element i
+                listan kallas i for loopen, det går att ändra och rekomenderas att namge det något mer passande som
+                fruit i det här sammanhanget.</p>
+            <pre>
+for i in range(10):
+    doStuff()
+</pre>
+            <p>
+                Det går att göra vanliga for loops i python genom att använda range(), den här loopen kommer att loopa
+                10st gånger och i blir vilket steg / iteration den är på dvs första gånger den loopar är i=0, andra
+                gången i=1, tredje gången i=2 osv.
+            </p>
+            <pre>
+while True == True:
+    print("om och om")
+</pre>
+
+            <p>While loopar kör på sålänge kriteriumet är lika med True, i det här fallet så är True == True så den
+                loopen kommer att köra i all evighet.</p>
+
+            <h2>Javascript</h2>
+            <p>For loops ser lite läskigare ut i Javascript men det är dom inte.</p>
+            <pre>
+for (let i = 0; i &lt; 10; i++) {
+    console.log(i)
+}
+</pre>
+            <p>I Javascript så måste man definiera ett start nummer, i = 0;. Sedan måste man definera hur länge den ska
+                loopa, i &lt; 10; och sist hur mycket den ska öka med i slutet av varje iteration; i++ vilket
+                bara betyder +1. Det gör att den här for loopen loopar 10st gånger.</p>
+            <pre>
+while (true == true) {
+    console.log("om och om")
+}
+</pre>
+            <p>While loopar kör på sålänge kriteriumet är lika med true, i det här fallet så är true == true så den
+                loopen kommer att köra i all evighet.</p>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
