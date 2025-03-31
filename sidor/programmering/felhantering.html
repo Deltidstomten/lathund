@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Lathund - Felhantering</title>
+</head>
+
+<body>
+    <nav>
+        <a href="../../programmering.html">Tillbaka</a>
+    </nav>
+    <main>
+        <header>
+            <h1>Felhantering</h1>
+        </header>
+        <article>
+            <h2>När saker går fel</h2>
+            <p>När ett program tar emot input från en användare eller något externt så finns alltid chansen att man får
+                trasig, felaktig eller farlig input. Det är därför det är viktigt att alltid kontrollera om
+                informationen som programmet tar emot är giltig. Det finns flera sätt att sätta upp kontroller men en av
+                dom vanligaste sätten är med hjälp av en try/catch i Javascript eller en try/except i Python. Båda går
+                ut på att testa om koden kommer krascha och om den gör det så utför den en annan kod.
+            </p>
+            <h2>Python</h2>
+            <pre>
+try:
+    number = int(input("Skriv in ett nummer: "))
+except:
+    print("Det där var inte ett nummer!")
+</pre>
+            <p>Om koden i try kraschar så körs koden i except. I koden ovan så konverteras input:en till en integer, men
+                om användaren skriver in något som inte är ett nummer så kraschar den vanligtvis. Try Excepten stoppar
+                den från att krascha och istället printar ett meddelande.</p>
+
+            <h2>Javascript</h2>
+            <p>Det är svårt att använda try catch effektivt i Javascript för Javascript ger sällan ut errors.</p>
+
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
