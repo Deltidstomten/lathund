@@ -45,9 +45,13 @@ a:hover {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 33% 33% 33%;
+
+    justify-content: center;
+    
+    gap: 3%;
 
     background-color: white;
     margin-left: 20%;
@@ -66,7 +70,11 @@ main {
 }
 
 article {
-    width: 80%;
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-rows: 35% 65%;
 }
 
 article h2 {
@@ -100,12 +108,14 @@ article p {
 
 .article-grid-2 {
     display: grid;
-    grid-template-columns: 40% 40%;
-    column-gap: 30px;
+    grid-template-columns: 50% 50%;
     justify-content: center;
     justify-items: center;
+    justify-self: center;
 
-    width: 80%;
+    width: 100%;
+    height: 100%;
+
 
     background-color: rgb(240, 240, 240);
     border-radius: 20px;
@@ -114,6 +124,8 @@ article p {
 
     margin-left: auto;
     margin-right: auto;
+
+
 }
 
 .article-grid-3 {
@@ -137,6 +149,10 @@ article p {
 .card {
     text-align: center;
     font-weight: bolder;
+
+    width: 100%;
+
+    align-self: center;
 }
 
 @media only screen and (max-width: 900px) {
