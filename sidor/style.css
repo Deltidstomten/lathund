@@ -7,10 +7,21 @@ body {
 
 }
 
+nav {
+   transform: translate(3%, 105%);
+}
+
 nav a {
     text-decoration: none;
-    color: white;
+    color:#283955;
+    
+    font-weight: 600;
     font-size: 2rem;
+
+    padding: 1%;
+
+    background-color: white;
+    border-radius: 20px;
 }
 
 a {
@@ -35,10 +46,13 @@ main {
 h1 {
     color: #eed17f;
     font-size: 3rem;
+    margin-bottom: 30%;
+    margin-top: -5%
 }
 
 h2 {
     font-size: 2rem;
+    color:#283955;
 }
 
 h3 {
